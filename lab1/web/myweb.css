@@ -3,6 +3,7 @@ body,html{ height:100%;}
 header{
     text-align: center;
     width: 100%;
+
 }
 .no1{
     display: inline-block;
@@ -26,9 +27,11 @@ h1{
     font-size: 4em;
 }
 main{
+
     margin-bottom: 100px;
-    padding: 600px;
-    background-color: white
+    padding-bottom: 1900px;
+
+    background-color: white;
 
 }
 
