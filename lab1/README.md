@@ -1,6 +1,6 @@
 # Lab1
 ***View:***
-  > ![markdown](页面分析.png)
+  > ![markdown](页面.png)
 ## ***How to run your fail***
   - click on file myweb.html
 ## Step by step:
