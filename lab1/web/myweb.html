@@ -2,6 +2,7 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
+    <!--<link rel="stylesheet" href="../Lab_1/outlines.css">-->
     <link rel="stylesheet" href="myweb.css">
     <title>Тянь Ци M33091</title>
 </head>
@@ -16,7 +17,7 @@
 
 <main>
     <ul class="li1">
-        <li ><b><i>Основная информация</i></b>
+        <li style="list-style: none"><b><i>Основная информация</i></b>
             <p><b>Дата рождения:</b><time >1998-04-06</time>
                 <br/><b>Пол:</b>женский
                 <br/><b>Страна гражданства:</b>Китай
@@ -24,68 +25,71 @@
             </p>
         </li>
 
-        <li>
-            <b><i>Опыт</i></b>
-            <dl>
+        <li style="list-style: none">
+            <b>Опыт</b>
+
                 <ol>
                     <li>
-                        <dt>практика</dt>
-                        <dd>Разработка веб-приложения для генерации страниц хранения конфиденциальной информации<br/>
-                         <table border="1">
-                                <tr>
-                                    <th>
-                                        Часть кода
-                                    </th>
-                                    <td>
-                                        <code>@RestController<br/>
-                                            public class password {<br/>
-                                            @RequestMapping(value = "login",<br/>method = RequestMethod.POST)<br/>
+                        <dl>
+                            <dt>практика</dt>
+                            <dd>Разработка веб-приложения для генерации страниц хранения конфиденциальной информации<br/>
+                                <table border="1" bgcolor="#f0ffff">
+                                    <tr>
+                                        <th>
+                                            Часть кода
+                                        </th>
+                                        <td>
+                                            <code>@RestController<br/>
+                                                public class password {<br/>
+                                                @RequestMapping(value = "login",<br/>method = RequestMethod.POST)<br/>
 
-                                            public  String login (<br/>@RequestBody User user){<br/>
+                                                public  String login (<br/>@RequestBody User user){<br/>
 
-                                            String password = user.getPassword();<br/>
-                                            System.out.println(password);<br/>
-                                            int num = 1;<br/>
-                                            if("123456".equals(password)){<br/>
-                                            return "success";<br/>
-                                            }<br/>
-                                            return "error";<br/>
-                                            }<br/>
-                                            }<br/></code>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th>
-                                        Все коды in Github
-                                    </th>
-                                    <td>
-                                        <a href="https://github.com/Freya-tian/web-ap" target="_blank">&#32 &#32 &#32 &#32 Мой код</a>
-                                    </td>
-                                </tr>
-                            </table>
-                           <!-- Часть кода:<br/>
-                               <code><dfn>@RestController<br/>
-                                public class password {<br/>
-                                @RequestMapping(value = "login",method = RequestMethod.POST)<br/>
+                                                String password = user.getPassword();<br/>
+                                                System.out.println(password);<br/>
+                                                int num = 1;<br/>
+                                                if("123456".equals(password)){<br/>
+                                                return "success";<br/>
+                                                }<br/>
+                                                return "error";<br/>
+                                                }<br/>
+                                                }<br/></code>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            Все коды in Github
+                                        </th>
+                                        <td>
+                                            <a href="https://github.com/Freya-tian/web-ap" target="_blank">&#32 &#32 &#32 &#32 Мой код</a>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <!-- Часть кода:<br/>
+                                    <code><dfn>@RestController<br/>
+                                     public class password {<br/>
+                                     @RequestMapping(value = "login",method = RequestMethod.POST)<br/>
 
-                                public  String login (@RequestBody User user){<br/>
+                                     public  String login (@RequestBody User user){<br/>
 
-                                String password = user.getPassword();<br/>
-                                System.out.println(password);<br/>
-                                int num = 1;<br/>
-                                if("123456".equals(password)){<br/>
-                                return "success";<br/>
-                                }<br/>
-                                return "error";<br/>
-                                }<br/>
-                                   }<br/></dfn></code>
-                            Все коды in Github:<br/>
-                            <a href="https://github.com/Freya-tian/web-ap" target="_blank">&#32 &#32 &#32 &#32 Мой код</a>-->
-                        </dd>
+                                     String password = user.getPassword();<br/>
+                                     System.out.println(password);<br/>
+                                     int num = 1;<br/>
+                                     if("123456".equals(password)){<br/>
+                                     return "success";<br/>
+                                     }<br/>
+                                     return "error";<br/>
+                                     }<br/>
+                                        }<br/></dfn></code>
+                                 Все коды in Github:<br/>
+                                 <a href="https://github.com/Freya-tian/web-ap" target="_blank">&#32 &#32 &#32 &#32 Мой код</a>-->
+                            </dd>
+                        </dl>
+
                     </li>
                     <br/>
                     <li>
-                        <dt>портфолио photoshop</dt>
+                        портфолио photoshop
                         <dd class="pics">
                             <a href="img/1.jpg" target="_blank"> <img src="img/1.jpg" height="500px"></a>
                             &nbsp
@@ -98,22 +102,36 @@
                         </dd>
                     </li>
                 </ol>
-            </dl>
+
         </li>
-        <li>
-            <b><i>Мне нравится формула</i></b>
+        <li style="list-style: none">
+            <b>Мне нравится формула</b>
             <ol>
                 <li>
-                    <dt>sin<sup>2</sup>a+cos<sup>2</sup>a=1</dt>
+                    sin<sup>2</sup>a+cos<sup>2</sup>a=1
                 </li>
                 <li>
-                    <dt>E<sub>0</sub>=mc<sup>2</sup></dt>
+                    E<sub>0</sub>=mc<sup>2</sup>
                 </li>
             </ol>
         </li>
-    </ul>
-</main>
 
+    </ul>
+
+</main>
+<pre>
+                #  #
+              #      #                  *
+             #        #              *
+             #        #            *  *   *
+              #      #               *
+                #  #                    *
+
+
+
+                        #         #
+                             #
+    </pre>
 <footer>
         <b>contact information:</b>
         <p class="contacts">
