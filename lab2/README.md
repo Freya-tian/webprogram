@@ -1,3 +1,3 @@
-# Lab1
+# Lab2
 ***View:***
   > ![markdown](无标题.png)
