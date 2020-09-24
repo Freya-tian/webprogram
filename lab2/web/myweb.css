@@ -1,7 +1,10 @@
 body {
     background: #aaaaaa;
-    font:15px  "Times New Roman";
+    font-family: "Times New Roman",Times,Serif;
+
 }
+
+
 
 header{
     text-align: center;
