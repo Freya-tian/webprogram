@@ -1,0 +1,129 @@
+body {
+	font-family: "Times New Roman";
+	margin: 0px;
+	margin-bottom:0px; 
+	background-image:url(img/back2.jpg) ;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.head{	  
+	background-color: rgba(215,215,215,0.6);
+
+}
+.Top{
+	text-align: center;	
+	width: 500px;
+	margin-left: 450px;
+	padding-top: 20px;
+}
+
+
+.Top > h1{
+	float: right;
+	font-size: 3em;	
+}
+.Avatar{	
+    clear: both;
+    border-radius: 50%;
+    width: 120px;
+    height:120px;
+    object-fit: cover;
+    object-position: center;    
+}
+
+.HomePage{	
+	float: left;
+	margin-left: 393px;
+}
+.Information{
+	float: right;	
+	margin-right:  393px;
+	border:2px solid #AAAAAA;	
+	border-radius: 20%;
+	background-color: rgba(245,154,35,0.5);	
+}
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+main{
+	width:1200px; 	
+	margin-left: auto;
+	margin-right: auto;
+}
+.Basic{
+    float: left;
+	margin-top: 20px;
+	border: 2px solid #AAAAAA;
+	width: 300px;
+	background-color: rgba(170,170,170,0.6); 
+}
+.Basic h4{
+	padding-left: 10px;
+}
+.Basic > h3{
+	font-weight: bold;
+}
+.right-main{
+   float: right;
+   /*border: 2px solid black;*/
+   width: 800px;
+   background-color: rgba(170,170,170,0.8);
+   margin-right: 20px;
+   margin-top: 20px;   
+}
+.Project{
+	width: 600px;
+	margin-left: 100px;
+	margin-top: 20px;
+	padding-left: 20px;
+	background-color: rgba(215,215,215,1);
+	border-radius: 10px;
+}
+.Project>h3{
+	font-weight: bold;
+}
+p > h5{
+	text-indent: 50px;
+}
+.Skill{
+	width: 600px;
+	margin-left: 100px;
+	margin-top: 20px;
+	padding-left: 20px;
+	background-color: rgba(215,215,215,1);
+	border-radius: 10px;
+}
+.Skill > h3{
+	font-weight: bold;
+}
+@font-face {
+  font-family: 'My';
+  src: url('../fonts/Bikham_Cyr_Script.ttf') format('truetype'),
+  	   url('../fonts/bikham_cyr_script-webfont.woff') format('woff'),
+  	   url('../fonts/bikham_cyr_script-webfont.woff2') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+ 
+}
+.Quote{
+	font-family: "My" !important;
+	width: 600px;
+	margin-left: 100px;
+	margin-top: 20px;
+	padding-left: 20px;
+	background-color: rgba(215,215,215,1);
+	border-radius: 10px;
+}
+
+.Quote > h3{
+	font-weight: bold;
+}
+footer{
+	clear: both;
+	margin-top: 20px;
+	background-color: rgb(85,85,85);	
+	height: 50px;
+	
+}
