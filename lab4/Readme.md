@@ -1,3 +1,3 @@
 # Lab4
 ***View:***
->> ![markdown](/img/video.gif)
+>> ![markdown](img/video.gif)
