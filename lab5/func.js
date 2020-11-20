@@ -64,8 +64,47 @@ console.log('h4 - ', h4);
 console.log('li - ', li);
 
 
-
-
-function my_contact(){
-	prompt("Email : tq85032@gmail.com")
+// 获取弹窗
+var modal = document.getElementById('myModal');
+ 
+// 打开弹窗的按钮对象
+var btn = document.getElementById("myBtn");
+ 
+// 获取 <span> 元素，用于关闭弹窗
+var span = document.querySelector('.close');
+ 
+// 点击按钮打开弹窗
+btn.onclick = function() {
+    modal.style.display = "block";
 }
+ 
+// 点击 <span> (x), 关闭弹窗
+span.onclick = function() {
+    modal.style.display = "none";
+}
+ 
+// 在用户点击其他地方时，关闭弹窗
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+
+function chooseImg(file){
+
+    var file=file.files[0];
+
+    var reader=new FileReader();
+
+    reader.readAsDataURL(file);
+
+    reader.onload=function(){
+
+           var img=document.getElementById('img');
+
+           img.src=this.result
+
+    };
+
+}
+
